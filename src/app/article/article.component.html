@@ -1,0 +1,21 @@
+<div class="col text-center">
+    <img src="{{article.image}}" class="img-fluid" alt="">
+ <div class="txt">
+    <h3 class="mt-2">
+    {{article.title}}
+</h3>
+<p class="price"><i>  {{article.price}} $</i></p>
+
+<p>
+    {{article.description}}
+</p>
+<p>
+    {{article.category}}
+</p>
+<p class="pric"> Stock : {{article.rating.count}}</p>
+<p><a [routerLink]="['/detail', article.id]" class="btn btn-success"> Ajouter au panier</a></p>
+ </div>
+
+   
+
+</div>

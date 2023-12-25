@@ -1,0 +1,22 @@
+<div>
+    <h1 class="my-5">{{article?.title}}</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <p><img src = "{{article?.image}}" class="img-fluid"></p>
+        </div>
+        <div class="col-md-6 px-5">
+            <p class="price my-5 "> {{article?.price}} $</p>
+            <h4 class="my-5"> Taux : {{article?.rating?.rate}}</h4>
+            <h4 class="my-5"><i> {{article?.rating?.count}} en stock</i></h4>
+            <h3 class="my-5">{{article?.category}}</h3> 
+            
+                <p class="my-5 description">{{article?.description}}</p>
+                        
+        </div>
+    </div>
+    
+  
+    
+    
+   
+</div>
